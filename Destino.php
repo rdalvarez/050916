@@ -6,9 +6,11 @@
 	//condicion 
 	if (isset($_GET['nombre'])) {
 		echo $_GET['nombre'];
-	} else
-	{
+	} 
+	else{
 		echo "Primero ingrese";
 	}
+
+	var_dump($_POST);
 
 ?>

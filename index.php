@@ -3,7 +3,7 @@
 	<title></title>
 </head>
 <body> 
-	<form action="Destino.php">
+	<form action="Destino.php" method="POST">
 		<label> Nombre </label>
 		<input type="text" name="nombre" placeholder="Ingrese su nombre">
 
@@ -18,7 +18,7 @@
 	//echo $_GET['nombre'];
 
 	//condicion 
-	if (isset($_GET['nombre'])) {
+	if (isset($_GET['nombre'])) { 
 		echo $_GET['nombre'];
 	} else
 	{
