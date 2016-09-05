@@ -3,11 +3,11 @@
 	<title></title>
 </head>
 <body> 
-	<form>
+	<form action="Destino.php">
 		<label> Nombre </label>
-		<input type="text" name="nombre" placeholer="Ingrese su nombre">
+		<input type="text" name="nombre" placeholder="Ingrese su nombre">
 
-		<input type="text" name="numeroUno"> 
+		<input type="text" name="numeroUno" placeholder="Ingrese un numero"> 
 		<input type="submit">
 	</form>
 </body>
