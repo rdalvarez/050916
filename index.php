@@ -1,8 +1,10 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
-<body> 
+<body>
+<div class="CajaInicio">
 	<form action="Destino.php" method="POST">
 		<label> Nombre </label>
 		<input type="text" name="nombre" placeholder="Ingrese su nombre">
@@ -10,6 +12,7 @@
 		<input type="text" name="numeroUno" placeholder="Ingrese un numero"> 
 		<input type="submit">
 	</form>
+</div>
 </body>
 </html>
 
