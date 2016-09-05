@@ -2,15 +2,16 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="animacion.css">
 </head>
 <body>
-<div class="CajaInicio">
+<div class="CajaInicio animated bounceIn">
 	<form action="Destino.php" method="POST" id="FormIngreso">
 		<label> Nombre </label>
 		<input type="text" name="nombre" placeholder="Ingrese su nombre">
 
 		<input type="text" name="numeroUno" placeholder="Ingrese un numero"> 
-		<input type="submit">
+		<input type="submit" class="MiBotonUTNMenuInicio">
 	</form>
 </div>
 </body>
