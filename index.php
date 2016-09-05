@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="CajaInicio">
-	<form action="Destino.php" method="POST">
+	<form action="Destino.php" method="POST" id="FormIngreso">
 		<label> Nombre </label>
 		<input type="text" name="nombre" placeholder="Ingrese su nombre">
 
